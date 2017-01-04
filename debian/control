@@ -1,0 +1,26 @@
+Source: node-clean-yaml-object
+Section: web
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pratham <prathameshmane1234@gmail.com>
+Build-Depends:
+ debhelper (>= 9)
+ , dh-buildinfo
+ , nodejs
+Standards-Version: 3.9.8
+Homepage: https://github.com/tapjs/clean-yaml-object#readme
+Vcs-Git: https://anonscm.debian.org/git/pkg-javascript/node-clean-yaml-object.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-javascript/node-clean-yaml-object.git
+
+Package: node-clean-yaml-object
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+Description: Clean up an object prior to serialization
+ Replaces circular references, pretty prints Buffers,
+ and numerous other enhancements.
+ . 
+ Primarily designed to prepare Errors for serialization to JSON/YAML.
+ .
+ Node.js is an event-based server-side JavaScript engine.

@@ -1,0 +1,5 @@
+node-clean-yaml-object (0.1.0-1) experimental; urgency=low
+
+  * Initial release (Closes: #850120)
+
+ -- Pratham <prathameshmane1234@gmail.com>  Wed, 04 Jan 2017 16:06:57 +0000
